@@ -39,9 +39,9 @@ parameters:
     frontend_customer_panel_url: '%env(frontend_customer_panel_url)%'
     frontend_invitation_url: '%env(frontend_invitation_url)%'
 
-    env(admin_url): 'http://localhost:8182/'
-    env(customer_url): 'http://localhost:8183/'
-    env(merchant_url): 'http://localhost:8184/'
+    env(admin_url): 'http://68.183.3.133:8182/'
+    env(customer_url): 'http://68.183.3.133:8183/'
+    env(merchant_url): 'http://68.183.3.133:8184/'
     env(reset_password_url): '#!/password/reset'
     env(frontend_activate_account_url): '#!/customer/panel/customer/registration/activate'
     env(frontend_invitation_url): '#!/register/'
